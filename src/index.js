@@ -20,7 +20,7 @@ class CountingParent extends React.Component {
     handleRemove = (action) => {
         this.setState({
             actionCount: this.state.actionCount - 1
-        })
+        });
     }
 
     render() {
